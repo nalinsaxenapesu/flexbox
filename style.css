@@ -1,0 +1,98 @@
+.top{
+  background-color: orange;
+  overflow: hidden;
+  margin: 20px;
+}
+.avatar{
+  border-radius: 50%;
+width: 30%;
+float:left;
+}
+.text-container{
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.flex{
+  background-color: yellow;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+
+}
+
+.left{
+    background-color: grey;
+    width: 400px;
+    height: 100px;
+
+  }
+
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.child-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.child-1{
+  display: flex;
+flex-wrap: wrap;
+}
+h1{
+    font-size: 20px;
+    margin-top: 30px;
+}
+h2{
+    font-size: 15px;
+}
+
+
+.left{
+  background-color: grey;
+  margin: 20px;
+  width: 400px;
+  height: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .avatar{
+    width: 20%;
+  }
+  h1{
+      font-size: 28px;
+
+  }
+  h2{
+      font-size: 20px;
+  }
+  .text-container{
+
+    text-align: left;
+  }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+.avatar{
+    width: 10%;
+  }
+  .parent{
+    flex-direction: row;
+  }
+
+  .left{
+    background-color: grey;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+  }
+  .child-1{
+    display: flex;
+      flex-direction: row;
+  }
+
+}
